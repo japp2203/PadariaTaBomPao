@@ -1,0 +1,133 @@
+/* tag "id" é chamado com # e tag class é chamado com . */
+/* class é repetitivo, id não */
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    /* coloca itens na mesma linha */
+    align-items: center;
+    /* alinha itens ao centro */
+    justify-content: space-evenly;
+    /* Alinha uniformemente os itens */
+    padding: 30px;
+    /* cuida do prenchimento */
+    background-color: #8d4925;
+    */
+    /* background: linear-gradient(270deg, #cdc0cf 8%, #642502 100%);
+
+    /* prenche cor do header */
+    overflow: hidden;
+    /*  */
+    line-height: 200px;
+    /* altura da linha */
+    max-height: 200px;
+    /* altura maxima */
+}
+
+header>img {
+    width: 15rem;
+    /*largura de nossa img*/
+    height: 15rem;
+    /*tamanho de nossa img*/
+}
+
+/* Selecionamos aqui a cor da letra do nosso H1 ou seja, do nosso titulo */
+header>h1 {
+    color: rgb(238, 204, 204);
+    font-size: 4rem;
+}
+
+/* nosso menu de navegação */
+#menu-header {
+    display: flex;
+    /*Responsavel por colocar os itens na mesma linha (lado a lado)*/
+    align-items: center;
+    /*ALINHAR OS ITENS DO NOSSO HEADER PARA O CENTRO*/
+}
+
+#list-menu {
+    /*Nossa lista não ordenada, aqui mudaremos diretamente nossa lista*/
+    display: flex;
+    /*coloca itens na mesma linha lado ao lado*/
+    margin-right: 1rem;
+    /*margin direita. 1rem equivale a 16px*/
+}
+
+.item-menu-header {
+    /*nossa li dentro do list menu no header*/
+    margin-right: 25px;
+    /*margem da direita*/
+}
+
+.item-menu-header>a:hover {
+    /*nossas li que estao dentro do list menu. (a) nossa tag de link que é representada por: HOME/PRODUTO/CONTATO, e o hover reeponsavel pela modificação de cor ao passar o cursor em cima*/
+    color: yellow;
+    transition: 1s;
+    /*tempo que será exibido ao passar o cursor*/
+}
+
+.item-menu-header>a {/*nossas li que estao dentro do list menu. (a) nossa tag de link que é representada por: HOME/PRODUTO/CONTATO*/
+color: white;
+text-decoration: none; /*Responsavel por tirar o sublinhado inferior*/
+font-size: 12px; /*tamanho da letra*/
+}
+
+#botao-header {/*Nossa ID do botao de login*/
+    display: flex; /*Responsavel por colocra os itens na mesma linha (lado a lado)*/
+}
+
+#botao-header>button {/*Aqui chamamos nossa ID e onde queremos fazer alterações, no caso o nosso BOTÃO*/
+    padding: 8px; /*cUIDA DO PRENCHIMENTO*/
+    background-color: transparent; /*fundo do botão transparente*/
+    border: none; /*None é usado para retirar algo, nesse caso a borda*/
+}
+
+#botao-header>button>a {/*Aqui chamamos nossa tag de link para alteração*/
+    display: flex; /*Responsavel por colocar os itens na mesma linha (lado a lado)*/
+    align-items: center; /*Alinhar os itens para o centro*/
+}
+
+#botao-header>button>a>img {/*aqui estamos mexendo no icon do botão*/
+    width: 90px; /*largura*/
+    height: 90px; /*tamanho*/
+    margin-right: 2px; /*margen da direita*/
+
+}
+
+
+
+
+/*
+#list-menu>li {
+    display: flex; /*coloca itens na mesma linha lado a lado
+    margin-left: 1rem;
+}
+
+#list-menu>li>a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #8b7c73;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#botao-header>button>a>img {
+    display:inline-flexbox;
+    align-items: end;
+    padding: 10px;
+    background-color: #8d4925;
+}
+#botao-header>button>a>p {
+    display:list-item;
+    align-items: end;
+    padding: 10px;
+    background-color: #ff0404;
+    text-decoration: none;
+}
+*/
