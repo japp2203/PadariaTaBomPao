@@ -17,9 +17,9 @@ header {
     /* Alinha uniformemente os itens */
     padding: 30px;
     /* cuida do prenchimento */
-    background-color: #8d4925;
-    */
-    /* background: linear-gradient(270deg, #cdc0cf 8%, #642502 100%);
+    /* background-color: #291205; */
+
+    background: linear-gradient(180deg, #feffb8 8%, #291205 50%);
 
     /* prenche cor do header */
     overflow: hidden;
@@ -39,7 +39,7 @@ header>img {
 
 /* Selecionamos aqui a cor da letra do nosso H1 ou seja, do nosso titulo */
 header>h1 {
-    color: rgb(238, 204, 204);
+    color: rgb(241, 233, 152);
     font-size: 4rem;
 }
 
@@ -72,62 +72,104 @@ header>h1 {
     /*tempo que será exibido ao passar o cursor*/
 }
 
-.item-menu-header>a {/*nossas li que estao dentro do list menu. (a) nossa tag de link que é representada por: HOME/PRODUTO/CONTATO*/
-color: white;
-text-decoration: none; /*Responsavel por tirar o sublinhado inferior*/
-font-size: 12px; /*tamanho da letra*/
-}
-
-#botao-header {/*Nossa ID do botao de login*/
-    display: flex; /*Responsavel por colocra os itens na mesma linha (lado a lado)*/
-}
-
-#botao-header>button {/*Aqui chamamos nossa ID e onde queremos fazer alterações, no caso o nosso BOTÃO*/
-    padding: 8px; /*cUIDA DO PRENCHIMENTO*/
-    background-color: transparent; /*fundo do botão transparente*/
-    border: none; /*None é usado para retirar algo, nesse caso a borda*/
-}
-
-#botao-header>button>a {/*Aqui chamamos nossa tag de link para alteração*/
-    display: flex; /*Responsavel por colocar os itens na mesma linha (lado a lado)*/
-    align-items: center; /*Alinhar os itens para o centro*/
-}
-
-#botao-header>button>a>img {/*aqui estamos mexendo no icon do botão*/
-    width: 90px; /*largura*/
-    height: 90px; /*tamanho*/
-    margin-right: 2px; /*margen da direita*/
-
-}
-
-
-
-
-/*
-#list-menu>li {
-    display: flex; /*coloca itens na mesma linha lado a lado
-    margin-left: 1rem;
-}
-
-#list-menu>li>a {
+.item-menu-header>a {
+    /*nossas li que estao dentro do list menu. (a) nossa tag de link que é representada por: HOME/PRODUTO/CONTATO*/
+    color: white;
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #8b7c73;
-    font-style: italic;
-    font-size: 20px;
+    /*Responsavel por tirar o sublinhado inferior*/
+    font-size: 12px;
+    /*tamanho da letra*/
+}
+
+#botao-header {
+    /*Nossa ID do botao de login*/
+    display: flex;
+    /*Responsavel por colocra os itens na mesma linha (lado a lado)*/
+}
+
+#botao-header>button {
+    /*Aqui chamamos nossa ID e onde queremos fazer alterações, no caso o nosso BOTÃO*/
+    padding: 8px;
+    /*cUIDA DO PRENCHIMENTO*/
+    background-color: transparent;
+    /*fundo do botão transparente*/
+    border: none;
+    /*None é usado para retirar algo, nesse caso a borda*/
+}
+
+#botao-header>button>a {
+    /*Aqui chamamos nossa tag de link para alteração*/
+    display: flex;
+    /*Responsavel por colocar os itens na mesma linha (lado a lado)*/
+    align-items: center;
+    /*Alinhar os itens para o centro*/
 }
 
 #botao-header>button>a>img {
-    display:inline-flexbox;
-    align-items: end;
-    padding: 10px;
-    background-color: #8d4925;
+    /*aqui estamos mexendo no icon do botão*/
+    width: 35px;
+    /*largura*/
+    height: 35px;
+    /*tamanho*/
+    margin-right: 2px;
+    /*margen da direita*/
 }
-#botao-header>button>a>p {
-    display:list-item;
-    align-items: end;
-    padding: 10px;
-    background-color: #ff0404;
+
+#botao-header>button>a {
+    color: white;
+    /*da cor a letra*/
     text-decoration: none;
+    /*tira sublinhado e cor de link*/
+    font-weight: 900;
+    /*espesura da fonte*/
+    /* font-size: 25px; */
+    /*tamanho da fonte*/
+
 }
-*/
+
+#img-destaque {
+    /*id*/
+    background-image: url(imagens/padaria.webp);
+    /*inserimos uma imagen que esta contida nossa pasta imagens*/
+    padding: 260px;
+    /*preenchimento da imagem*/
+    background-position: center;
+    /*centraliza a imagen na tela*/
+    background-size: cover;
+    /*ajusta a imagem ate aproveitar o 100% */
+}
+
+.img-div {
+    /*clss*/
+    padding: 25px;
+    background-image: url(imagens/img-div.jpg);
+    background-position: center;
+    background-size: auto;
+}
+
+#clients-list {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+    margin-left: 30rem;
+}
+
+section>h2 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 50rem;
+}
+
+.line {
+    width: 25%;
+    padding: 1px;
+    background-color: aqua;
+    margin-left: 47rem;
+}
+
+
+#clients-list>li>img {
+margin-right: 5rem;
+}
+
