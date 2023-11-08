@@ -140,36 +140,115 @@ header>h1 {
 }
 
 .img-div {
-    /*clss*/
+    /*class*/
     padding: 25px;
+    /*preenche*/
     background-image: url(imagens/img-div.jpg);
     background-position: center;
     background-size: auto;
 }
 
+#clients>h2 {
+    text-align: center;
+    /*ALINHA TEXTO*/
+    font-size: 36px;
+    /*TAMANHO LETRA*/
+    margin-top: 0px;
+    /*ESPAÇAMENTO*/
+    margin-bottom: 0px;
+}
+
+#clients {
+    background-color: #feffb8;
+    padding: 40px;
+    margin-top: 0;
+}
+
+.line {
+    margin: 0 auto;
+    width: 30%;
+}
+
+#clients-list {
+    display: flex;
+    /*facilita o alinhamento dos itens. lado a lado, mais dinámicos, permite conferir mais atribuições*/
+    align-items: center;
+    /*alinha itens no centro*/
+    justify-content: space-evenly;
+    /*espaçamento uniforme entre itens*/
+    margin-top: 35px;
+    /*margin superior*/
+}
+
+.clients-item {
+    display: flex;
+    /*facilita o alinhamento dos itens. lado a lado, mais dinámicos, permite conferir mais atribuições*/
+    justify-content: center;
+    /*espaçamento uniforme entre itens*/
+    align-items: center;
+    /*alinha itens no centro*/
+    flex-direction: column;
+    /*alinha em forma de coluna*/
+}
+
+.clients-item>img {
+    width: 84px; /*Largura imagen*/
+    height: 84px; /*Altura imagen*/
+}
+
+.clients-item > h3 {
+    font-family:cursive;
+    font-size: 32px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.clients-item > p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+
+/*
 #clients-list {
     display: inline-flex;
     justify-content: space-between;
-    margin: 30px;
     align-items: center;
-    margin-left: 30rem;
+    margin-left: 8rem;
+    padding: 5rem;
 }
 
 section>h2 {
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 50rem;
+    margin-left: 35rem;
+    color: #5f2604;
 }
 
 .line {
-    width: 25%;
+   
+    width: 50%;
     padding: 1px;
-    background-color: aqua;
-    margin-left: 47rem;
+    background-color: #813408;
+    margin-left: 23rem;
 }
 
 
 #clients-list>li>img {
-margin-right: 5rem;
+    margin-right: 27rem;
+    width: 7rem;
+ }
+
+#clients-list>li>h3 {
+    font-size: 30px;
+    margin-left: -3rem;
 }
 
+#clients-list>li>p {
+    font-size: 20px;
+    margin-left: -5rem;
+    font-family:cursive ;
+}*/
