@@ -166,7 +166,8 @@ header>h1 {
 
 .line {
     margin: 0 auto;
-    width: 20%;
+    width: 30%;
+    margin-bottom: 50px;
 }
 
 #clients-list {
@@ -253,28 +254,144 @@ section>h2 {
     font-family:cursive ;
 }*/
 
-#produtos {
+#products {
+    /* id*/
     padding: 100px;
-    background: linear-gradient(197deg, #feffb8 8%, #291205 50%);
+    /*preenchimento*/
+    background: linear-gradient(360deg, #feffb8 8%, #291205 75%);
+    /*Aqui utilizamos uma estilização de fondo degrade*/
 }
 
-#produtos>h2 {
+#products>h2 {
+    /*id*/
     text-align: center;
     /*ALINHA TEXTO*/
     font-size: 36px;
     /*TAMANHO LETRA*/
-    margin-top: 0px;
+    margin-top: -50px;
     /*ESPAÇAMENTO*/
     margin-bottom: 0px;
+    color: #feffb8;
 }
 
 .img-product {
-    width: 15rem;
-    height: 13rem;
-    border-radius: 50%;
+    /*class*/
+    /*ID usada para a section do produtos*/
+    width: 23rem;
+    /*largura imagen*/
+    height: 22rem;
+    /*altura imagen*/
+    border-radius: 25%;
+    /*suaviza OU ARRENDONDA bordas da imagen*/
 }
 
 .section-products {
-    display: inline-block;
+    /*class*/
+    /*Chamamos nossa div Pai para estilização*/
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.title-products {
+    /*class*/
+    /*Chamamos nosso titulo para estilização*/
+    margin-top: 10px;
+    /*Espaçamento do titulo em relação a img*/
+    text-align: center;
+    /*Alinhamento do texo ao centro*/
+    font-size: 30px;
+    /*tipo letra*/
+    color: #feffb8;
+    /*Cor da fonte*/
+}
+
+#products>a {
+    /*id*/
+    /*estilizamos a tag "a"*/
+    text-decoration: none;
+    /*Tira sulinhado*/
+    font-family: cursive;
+    /*tipo de fonte*/
+    font-size: 25px;
+    /*tamanho da fonte*/
+    color: #291205;
+    /*cor da fonte*/
+    display: flex;
+    /*tornando em flex, permite maior control dos itens*/
+    justify-content: center;
+    /*Alinhado ao centro*/
+    text-align: center;
+    /*alinhado ao centro, complemento*/
+
+}
+
+#products>a:hover {
+    /*id*/
+    /*estilizamos a tag "a" para quando passamos o mause acima*/
+    font-size: 27px;
+    /*tamanho da fonte*/
+    transition: 0.8s;
+    /*tempo que demora a transição*/
+    color: rgb(38, 0, 255);
+    /*novo color ao passar o mouse*/
+
+}
+
+#sobre-nos {
+    /*id*/
+    /*chamamos o id sobre-nos para estilização*/
+    background-image: url(imagens/fundo-sobre-nos.jpg);
+    /*inserimos a imagen*/
+    background-repeat: no-repeat;
+    /*evitamos que a imagen seja repetida*/
+    background-position: center;
+    /*posicionamento da imagen ao centro*/
+    background-size: 100%;
+    /*habilitamos o tamanho da imagen ao 100% da tela*/
+    background-attachment: fixed;
+    /*deixa a imagen fixada*/
+    padding: 5rem;
+    /*tamanho do preenchimento*/
+
+}
+
+#sobre-nos>h3 {
+    /*id*/
+    /*chamamos nossa tag "h3" para estilização*/
+    color: #feffb8;
+    /*damos cor na letra*/
+    font-size: 50px;
+    /*damos tamanho na fonte*/
+    text-align: center;
+    /*Alinhamos o texto ao centro*/
+    font-family: 'Times New Roman', Times, serif;
+    /*escolhemos tipo de fonte*/
+
+}
+
+#sobre-nos>p {
+    /*id*/
+    /*Chamamos a tag "p" para estilização*/
+    color: #feffb8;
+    /*damos cor na letra*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*tipo de fonte*/
+    font-size: 20px;
+    /*tamanho da fonte*/
+    margin-top: 30px;
+    /*margin superior*/
+    margin-bottom: 30px;
+    /*margin inferior*/
+    margin-left: 50px;
+    /*margin esquerdo*/
+    margin-right: 50px;
+    /*margin direito*/
+    text-align: left;
+    /*Alinhamento do paragrafo a esquerda*/
+    font-weight: 900;
+    /*espesura fonte*/
 }
 
