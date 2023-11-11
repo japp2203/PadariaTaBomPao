@@ -395,3 +395,74 @@ section>h2 {
     /*espesura fonte*/
 }
 
+#contatos {
+    /*id*/
+    padding: 80px;
+    /*tamanho do preenchimento*/
+    background-image: url(imagens/img-footer.jpg);
+    /*estabelece imagem de fundo*/
+    background-repeat: no-repeat;
+    /*evitamos que a imagen seja repetida*/
+    background-position: bottom;
+    /*posicionamento da imagen para abaixo*/
+    background-size: 100%;
+    /*habilitamos o tamanho da imagen ao 100% da tela*/
+    background-attachment: fixed;
+    /*deixa a imagen fixada*/
+}
+
+#contatos>a>img {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 55rem;
+   }
+
+#contatos > a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#291205;
+  font-weight: 900;
+text-align: right;
+
+
+}
+
+#contatos>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contatos>h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.item-menu-footer>img {
+    /*aqui chamamos nossa IMG para estilização*/
+    align-items: center;
+    margin-top: 30px;
+    /**/
+    display: flex;
+    /* alinhado dos itens lado a lado */
+    width: 5rem;
+    /*largura imagen*/
+    height: 5rem;
+    /*altura imagen*/
+}
+
+.item-menu-footer>p {
+    /*aqui chamamos nossa tag p para estilização*/
+    color: #000000;
+    /*cor da letra*/
+    font-size: 25px;
+    /*tamanho da letra*/
+    font-weight: bold;
+    /*espessura da letra*/
+    margin-left: 10px;
+    /*espaçamento à esquerda*/
+
+}
