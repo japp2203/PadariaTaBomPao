@@ -415,15 +415,15 @@ section>h2 {
     width: 2rem;
     height: 2rem;
     margin-left: 55rem;
-   }
+}
 
-#contatos > a {
-  text-decoration: none;
-  font-size: 25px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color:#291205;
-  font-weight: 900;
-text-align: right;
+#contatos>a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #291205;
+    font-weight: 900;
+    text-align: right;
 
 
 }
@@ -464,5 +464,20 @@ text-align: right;
     /*espessura da letra*/
     margin-left: 10px;
     /*espaçamento à esquerda*/
+
+}
+
+/* para trabalhar com responsividade para telas menores */
+@media(max-width:430px) {
+    #menu-header {
+        display: none;
+    }
+
+    #botao-header button a {
+        display: block;
+        font-family:;
+
+    }
+
 
 }

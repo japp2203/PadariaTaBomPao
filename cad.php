@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cad.css">
 </head>
 <body>
-   <header>
-     <h1>***Resultado do processamento***</h1>
+   <header id="h1">
+     <h1>Seus Dados Foram Cadastrados Corretamente</h1>
    </header>
    
-   <main>
-        <?php
+   <main class="vari">
+        <?php 
            $nome = $_GET["nome"];
-           $sobrenome = $_GET["sobrenome"];
+           $email = $_GET["email"];
+           $telefone = $_GET["telefone"];
 
-           echo "É um prazer te conhecer, $nome $sobrenome! Este é meu site";
+           echo "É um prazer te conhecer, 
+           <span>$nome</span> $email $telefone! 
+            Padaria Ta Bom Pão agradece seu Contato";
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para página anterior</a></p>
    </main>

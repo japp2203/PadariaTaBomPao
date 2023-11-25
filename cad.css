@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    background-image: url(imagens/cesta\ de\ pão.jpg);
+    background-repeat: no-repeat;
+    padding: 450px;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+header {
+    margin-top: -26rem;
+    margin-left: -10rem;
+ }
+
+#h1 {
+    font-size: large;
+    color: rgb(253, 253, 253);
+    background-color: green;
+    border-radius: 2%;
+    width: 900px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.vari {
+    font-size: 30px;
+    background-color: rgb(185, 114, 114);
+    margin-top: 5rem;
+    margin-left: -10rem;
+    width: 55rem;
+
+}
+
+#NOME{
+
+}
+.vari span {
+    font-size: 50px;
+}
