@@ -15,7 +15,8 @@ header {
     /* alinha itens ao centro */
     justify-content: space-evenly;
     /* Alinha uniformemente os itens */
-    padding: 30px;
+    /* padding: 30px; */
+    padding: 2%;
     /* cuida do prenchimento */
     /* background-color: #291205; */
 
@@ -24,9 +25,9 @@ header {
     /* prenche cor do header */
     overflow: hidden;
     /*  */
-    line-height: 200px;
+    /* line-height: 200px; */
     /* altura da linha */
-    max-height: 200px;
+    /* max-height: 200px; */
     /* altura maxima */
 }
 
@@ -131,7 +132,8 @@ header>h1 {
     /*id*/
     background-image: url(imagens/padaria.webp);
     /*inserimos uma imagen que esta contida nossa pasta imagens*/
-    padding: 260px;
+    /* padding: 260px; */
+    padding: 20%;
     /*preenchimento da imagem*/
     background-position: center;
     /*centraliza a imagen na tela*/
@@ -213,46 +215,6 @@ header>h1 {
     align-items: center;
 }
 
-/*
-*********#clients-list {
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 8rem;
-    padding: 5rem;
-}
-
-section>h2 {
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 35rem;
-    color: #5f2604;
-}
-
-.line {
-   
-    width: 50%;
-    padding: 1px;
-    background-color: #813408;
-    margin-left: 23rem;
-}
-
-
-#clients-list>li>img {
-    margin-right: 27rem;
-    width: 7rem;
- }
-
-#clients-list>li>h3 {
-    font-size: 30px;
-    margin-left: -3rem;
-}
-
-#clients-list>li>p {
-    font-size: 20px;
-    margin-left: -5rem;
-    font-family:cursive ;
-}*/
 
 #products {
     /* id*/
@@ -467,6 +429,8 @@ section>h2 {
 
 }
 
+/* simulador, extenção */
+
 /* para trabalhar com responsividade para telas menores */
 @media(max-width:430px) {
     #menu-header {
@@ -475,8 +439,42 @@ section>h2 {
 
     #botao-header button a {
         display: block;
-        font-family:;
+        font-family: bold;
 
+    }
+
+    #botao-header button a p {
+        /* fonte "0.8em" se adapta, é responsivo, "px" não, fica desporporcional */
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #botao-header button a img {
+        width: 30%;
+        height: auto;
+    }
+
+    header img {
+        width: 40px; /*iremos modificar*/
+        height: 40px;
+    }
+
+    header h1{
+        font-size: 1em; /*1em = 16px e se adapta as tamanhos de tela*/
+    }
+
+    header {
+        padding: 5%; /*do tamanho da tela = 430px, declarado no @media*/
+
+    }
+
+    #img-destaque {
+       max-width: 100%;
+       height: auto;
+    }
+
+    #img-padaria {
+        width: 100%;
     }
 
 

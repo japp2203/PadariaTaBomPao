@@ -21,7 +21,7 @@
            <span>$nome</span> $email $telefone! 
             Padaria Ta Bom Pão agradece seu Contato";
         ?>
-        <p><a href="javascript:history.go(-1)">Voltar para página anterior</a></p>
+        <p id="voltar"><a href="javascript:history.go(-1)">Voltar para página anterior</a></p>
    </main>
   
 </body>
