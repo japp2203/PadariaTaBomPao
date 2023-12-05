@@ -315,7 +315,7 @@ header>h1 {
     /*habilitamos o tamanho da imagen ao 100% da tela*/
     background-attachment: fixed;
     /*deixa a imagen fixada*/
-    padding: 5rem;
+    padding: 10%;
     /*tamanho do preenchimento*/
 
 }
@@ -325,12 +325,13 @@ header>h1 {
     /*chamamos nossa tag "h3" para estilização*/
     color: #feffb8;
     /*damos cor na letra*/
-    font-size: 50px;
+    font-size: 4em;
     /*damos tamanho na fonte*/
     text-align: center;
     /*Alinhamos o texto ao centro*/
     font-family: 'Times New Roman', Times, serif;
     /*escolhemos tipo de fonte*/
+
 
 }
 
@@ -390,7 +391,12 @@ header>h1 {
 
 }
 
-#contatos>ul {
+/* #contatos>ul {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.contatos-footer {
     display: flex;
     justify-content: space-evenly;
 }
@@ -455,27 +461,117 @@ header>h1 {
     }
 
     header img {
-        width: 40px; /*iremos modificar*/
+        width: 40px;
+        /*iremos modificar*/
         height: 40px;
     }
 
-    header h1{
-        font-size: 1em; /*1em = 16px e se adapta as tamanhos de tela*/
+    /*  */
+    /*  */
+    header h1 {
+        font-size: 1em;
+        /*1em = 16px e se adapta as tamanhos de tela*/
     }
 
     header {
-        padding: 5%; /*do tamanho da tela = 430px, declarado no @media*/
+        padding: 5%;
+        /*do tamanho da tela = 430px, declarado no @media*/
 
     }
 
     #img-destaque {
-       max-width: 100%;
-       height: auto;
+        max-width: 100%;
+        height: auto;
     }
 
     #img-padaria {
         width: 100%;
     }
+
+
+    #clients h2 {
+        font-size: 1.8em
+    }
+
+    .line {
+        width: 70%
+    }
+
+    #clients-list {
+        display: block;
+        text-align: center;
+    }
+
+    .clients-item h3 {
+        font-size: 1.7em;
+    }
+
+    .clients-item p {
+        font-size: 1.6em;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    #section-products {
+        display: block;
+        align-items: flex-start;
+        margin: 20%;
+        background-color: aqua;
+    }
+
+    #products h2 {
+        font-size: 1.8em;
+        margin-top: 13%;
+
+
+    }
+
+    .img-product {
+        margin-top: 40px;
+
+    }
+
+    #products a p {
+        margin-top: 20px;
+    }
+
+    #sobre-nos h3 {
+        font-size: 1.7em;
+    }
+
+    #sobre-nos p {
+        font: bold;
+        font-size: 1.2em;
+    }
+
+    #contatos {
+        display: block;
+    }
+
+    .contatos-footer {
+        display: block;
+
+    }
+
+    .item-menu-footer p {
+        font-size: 1.2rem;
+    }
+
+    .item-menu-footer img {
+        width: 20%;
+        height: 20%;
+        margin-left: 55px;
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 }
